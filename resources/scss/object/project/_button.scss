@@ -1,0 +1,20 @@
+@use "../../foundation/variable" as *;
+
+.p-button {
+    &__form {
+      background: $bg-color__main; 
+      width: 300px;
+      color:$font-color__light;
+      font-size:20px;
+      border-radius: 5px;
+      box-shadow: 1px 2px 10px;
+      display: block;
+      margin: 0 auto;
+
+      &:active{
+          box-shadow: none;
+          transform:translateY(2px);
+      }
+    }
+  }
+  

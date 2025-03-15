@@ -1,0 +1,17 @@
+@for $i from 1 through 10 {
+    .u-mt-#{$i}{
+        margin-top:10px*$i;
+    }
+
+    .u-mb-#{$i}{
+        margin-bottom:10px*$i;
+    }
+
+    .u-pt-#{$i}{
+        padding-top:10px*$i;
+    }
+
+    .u-pb-#{$i}{
+        padding-bottom:10px*$i;
+    }
+}
