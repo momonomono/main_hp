@@ -27,4 +27,44 @@
         flex-direction: column;
         align-items: center;
     }
+
+    &__slider{
+        width:100%;
+        border:solid 1px #000;
+        aspect-ratio: 1/1;
+
+        &-nav{
+            display: flex;
+            justify-content: space-around;
+        }
+
+        &-itme{
+
+        }
+    }
+
+    &__slideshow{
+        width:100%;
+        aspect-ratio: 1/1;
+        overflow: hidden;
+        
+        &-container{
+            height:100%;
+            display: flex;
+            transform:translateX(0px);
+        }
+
+        &-nav{
+            width:100%;
+            height:30px;
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        &-item{
+            display:flex;
+            align-items: center;
+        }
+    }
 }

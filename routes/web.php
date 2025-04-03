@@ -6,6 +6,7 @@ use App\Http\Controllers\TestController;
 use App\Http\Middleware\FormDataMiddleware;
 use App\Http\Middleware\Test\TestMiddleware;
 use App\Http\Controllers\SigninController;
+use App\Http\Controllers\FormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,11 +20,19 @@ use App\Http\Controllers\SigninController;
 */
 
 Route::get('/',[MainController::class,"top"])->name('top');
-Route::get('/test',[TestController::class,"test"])->name('test');
-Route::post('/test',[TestController::class,"test_post"])->name('post.test');
 
+Route::get('/mypage',[MainController::class,'mypage'])->name('mypage');
+Route::post('/mypage',[MainController::class,'mypage_post'])->name('mypage.post');
 
 Route::get('/signin',[SigninController::class,'signin'])->name('signin');
 Route::post('/signin',[SigninController::class,'signin_post'])->name('signin.post');
 
-Route
+Route::get('/login',[FormController::class,'login'])->name('login');
+Route::post('/login',[FormController::class,'login_post'])->name('login.post');
+
+// Test
+Route::get('/test',[TestController::class,"test"])->name('test');
+Route::post('/test',[TestController::class,"test_post"])->name('post.te____st');
+
+// Slider
+Route::get('/slider',[MainController::class,"slider"])->name('slider');

@@ -9,9 +9,7 @@
 </head>
 <body>
     <div class="l-container">
-        <article class="c-gird__content u-mt-3">
-            @yield('content')
-        </article>
+        @yield('content')
     </div>
 </body>
 </html>

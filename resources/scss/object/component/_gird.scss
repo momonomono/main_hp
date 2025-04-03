@@ -1,7 +1,10 @@
 .c-gird{
 
-    &__content{
-        max-width: 500px;
-        margin: 0 auto;
+    &__upload{
+        width:100%;
+        aspect-ratio: 16 / 9;
+        background:lightgray;
+        text-align: center;
+        position:relative;
     }
 }

@@ -23,4 +23,9 @@ class MainController extends Controller
 
         return view('test');
     }
+
+    public function slider(){
+
+        return view('slider');
+    }
 }

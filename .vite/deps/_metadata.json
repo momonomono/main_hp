@@ -1,8 +1,25 @@
 {
-  "hash": "b917aea0",
+  "hash": "f55df5b9",
   "configHash": "3b9d3995",
-  "lockfileHash": "e3b0c442",
-  "browserHash": "612b143e",
-  "optimized": {},
-  "chunks": {}
+  "lockfileHash": "5b3dc9a3",
+  "browserHash": "bfb8bec2",
+  "optimized": {
+    "vue": {
+      "src": "../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "03f00455",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "226550f6",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-PZ5AY32C": {
+      "file": "chunk-PZ5AY32C.js"
+    }
+  }
 }

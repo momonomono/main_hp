@@ -67,6 +67,10 @@ summary {
   display: block;
 }
 
+li{
+  list-style: none;
+}
+
 summary {
   display: list-item; /* Add the correct display in all browsers */
 }
